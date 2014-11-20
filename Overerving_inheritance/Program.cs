@@ -19,17 +19,17 @@ namespace Overerving_inheritance
            
 
 
-            voertuigA.Draw();
+            //voertuigA.Draw();
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-            vrachtwagenA.Draw();
+            //vrachtwagenA.Draw();
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-            fietsA.Draw();
+            //fietsA.Draw();
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-            camper.Draw();
+            //camper.Draw();
             Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 
             // Polymorphisme (meervormig)
-            voertuig = fietsA;
+            voertuig = voertuigA;
             voertuig.Draw();
             Console.WriteLine("-----------------------------------------------------------------");
             voertuig = vrachtwagenA;
