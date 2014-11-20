@@ -25,7 +25,7 @@ namespace Overerving_inheritance
         }
 
         // Draw
-        public void Draw()
+        public override void Draw()
         {
             base.Draw();
             Console.WriteLine("Het laadvermogen bedraagt {0}", this.laadvermogen);

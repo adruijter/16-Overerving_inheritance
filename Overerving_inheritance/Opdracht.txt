@@ -1,0 +1,26 @@
+﻿Maak een nieuw project genaamd Polymorphisme
+
+Maak een base class (parent class) Ambtenaar
+
+Vind minimaal 5 fields die alle ambtenaren gemeen hebben.
+
+Maak een Politie Class met minimaal drie extra velden
+
+Maak een Brandweer Class met minimaal drie extra velden
+
+Maak een Vuilnisman Class met minimaal drie extra velden
+
+Maak een Militair Class met minimaal drie extra velden.
+
+Maak voor alle velden properties (getters en setters)
+
+Maak voor alle classes constructors
+
+Maak voor elke class apart een Draw methode die informatie geeft over alle Fields van de betrefende 
+class en die van de parent class.
+
+Polymorphisme
+Maak de Draw methode van de parent class ambtenaar virtual en maak de Draw methode van de andere
+classes van het type override.
+
+Toon in je program class nu aan dat je gemaakte classes polymorph zijn.

@@ -27,7 +27,7 @@ namespace Overerving_inheritance
             this.geluidswaarschuwing = geluidswaarschuwing;
         }
 
-        public void Draw()
+        public virtual void Draw()
         {
             Console.WriteLine("Weet je wat ik ben? Nee, ik ben een: {0}", this.ikBenEen);            
             Console.WriteLine("Mijn aantal wielen is: {0}", this.aantalWielen);

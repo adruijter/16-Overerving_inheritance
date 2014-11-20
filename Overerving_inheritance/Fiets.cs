@@ -23,7 +23,7 @@ namespace Overerving_inheritance
             this.aantalVersnellingen = aantalVersnellingen;
         }
 
-        public void Draw()
+        public override void Draw()
         {
             base.Draw();
             Console.WriteLine("Het aantal versnellingen is: {0}", this.aantalVersnellingen);            
